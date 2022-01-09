@@ -1,0 +1,37 @@
+.user-container {
+    height: 600px;
+    width: 600px;
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.3)
+    );
+    z-index: 1;
+    border-radius: 2.5%;
+    padding: 32px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-info-container img {
+    border-radius: 50%;
+}
+.user-info-container {
+    text-align: center;
+}
+.text-normal {
+    font-size: 18px;
+    line-height: 25px;
+}
+.text-small {
+    font-size: 15px;
+    line-height: 22px;
+}
+.user-fullname {
+    font-weight: bold;
+    margin: 12px 0;
+}
+.user-age {
+    margin: 6px 0;
+}
